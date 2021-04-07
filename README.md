@@ -20,12 +20,15 @@ The scripts are developed using the Python programming language that is platform
 
 To the run the scripts;
 
+The pooling27 and pooling81 scripts should be [deployed](https://docs.opentrons.com/v2/writing.html) on the instrument i.e. according to the standard opentrons [guidelines](https://docs.opentrons.com/v2/writing.html). Once deployed, the protocol can then be calibrated and used to perform pooling experiments.
 
-```{}
+To run the scripts to infer positives (test data available in the data folder);
+
+```
 python 	positive_results_v1.py
 ```
 
-User input will be entered interactively via the command prompt
+The program will then request for user input to be entered interactively via the command prompt. Once all the user input has been provided, it will infer and printout the positive result to stdout.
 
 ## License
 
